@@ -1,7 +1,5 @@
-<p align="center">
-<b>Zocument</b> <br>
-A tool to create static docs that lets you focus on content and build fast.
-</p>
+<h1 align="center">Zocument</h1>
+<p align="center">A tool to create static docs that lets you focus on content and build fast.</p>
 
 
 ## ✨ Features
@@ -9,8 +7,6 @@ A tool to create static docs that lets you focus on content and build fast.
 - 📝 **Content First** – Focus on writing, not configuration.  
 - 📦 **Static** – Output is just static files, deployable anywhere.  
 - 🌍 **Portable** – Host on GitHub Pages, Vercel, Netlify, or your own server.  
-
----
 
 ## 🚀 Getting Started
 
