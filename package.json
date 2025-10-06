@@ -1,0 +1,26 @@
+{
+  "name": "zocument",
+  "version": "0.0.4",
+  "author": "Extenv",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "bin": {
+    "zoc": "dist/bin/index.js"
+  },
+  "description": "Experimental - A faster tool for generating static documentation.",
+  "keywords": [
+    "document",
+    "documentation",
+    "static documentation"
+  ],
+  "scripts": {
+    "dev": "bun dist/bin/index.js",
+    "dev:build": "bun build src/bin/index.ts --outdir=dist/bin --target node --minify",
+    "prod": "bun run dev:build && bun link"
+  }
+}
