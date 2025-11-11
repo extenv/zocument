@@ -10,4 +10,4 @@
 
 ## 🚀 Getting Started
 
-### Development Progress (Malas bjirrr)
+### Development Progress
